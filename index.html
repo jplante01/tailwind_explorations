@@ -6,9 +6,23 @@
     <link rel="stylesheet" href="/src/style.css" />
     <title>Vite App</title>
   </head>
-  <body>
-    <div>
-      <span class="bg-black text-red-400 text-clip m-0">Hello</span>
+  <body class="min-h-screen flex flex-col bg-slate-50">
+    <div class="bg-slate-300">
+      <div class="mx-64">
+        <ul class="flex justify-between my-2">
+          <li class="text-stone-50 font-bold text-2xl"><button>About</button></li>
+          <li class="text-stone-50 font-bold text-2xl"><button>Home</button></li>
+          <li class="text-stone-50 font-bold text-2xl"><button>Products</button></li>
+          <li class="text-stone-50 font-bold text-2xl"><button><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button></li>
+        </ul>
+      </div>
+    </div>
+    <div class="bg-white w-fit rounded-lg">
+      <div class="inline-flex flex-col pl-4 pt-4 pr-16 pb-8">
+        <span class="inline font-bold pb-2"><button class="text-2xl">About</button></span>
+        <span class="inline font-bold pb-2"><button class="text-2xl">Home</button></span>
+        <span class="inline font-bold "><button class="text-2xl">Products</button></span>
+      </div>
     </div>
   </body>
 </html>
